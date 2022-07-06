@@ -11,7 +11,19 @@
 
 let calificacion=parseInt(prompt("Ingrese la calificacion"))
 if(calificacion<=2){
-    alert("Muy Eficiente")
+    alert("Muy Deficiente")
+}else if(calificacion>=3&&calificacion<=4){
+    alert("Insuficiente")
+}else if(calificacion>=5&&calificacion<=6){
+    alert("Suficiente")
+}else if(calificacion===7){
+    alert("Bien")
+}else if(calificacion>=8&&calificacion<=9){
+    alert("Notable")
+}else if(calificacion===10){
+    alert("Sobresaliente")
+}else{
+    alert("Numero erroneo")
 }
 
 
