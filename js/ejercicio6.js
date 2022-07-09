@@ -8,3 +8,12 @@
 666666
 …….
 */
+
+let numero
+let repeticion 
+        for(numero=1;numero<=30;numero++){
+            for(repeticion=0;repeticion<numero;repeticion++){
+                document.write(numero);
+            }
+            document.write("<br>")
+        }
