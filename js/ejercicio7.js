@@ -8,6 +8,13 @@ Haz un script que escriba una pirámide inversa de los números del 1 al número
 333
 22
 1
-
-
 */
+
+let numero
+let repeticion 
+        for(numero=30;numero>=1;numero--){
+            for(repeticion=numero;repeticion>=1;repeticion--){
+                document.write(numero);
+            }
+            document.write("<br>")
+        }

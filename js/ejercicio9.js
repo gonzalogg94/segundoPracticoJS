@@ -7,14 +7,10 @@ Crea un script que escriba los números del 1 al 500, que indique cuáles son m�
 4 (Múltiplo de 4)
 5-
 ————————————————————-
-
 6
 7
 8 (Múltiplo de 4)
 9 (Múltiplo de 9)
 10
-
-
-
 
 */
