@@ -10,18 +10,13 @@ Crea script para generar pirámide siguiente con los números del 1 al número q
 ……
 */
 
-//PEDIMOS EL NÚMERO POR TECLADO
-var numrep = prompt("Introduce numero de repeticiones");
-//SI LO INTRODUCIDO ES UN NÚMERO
-if (Number(numrep) == numrep) {
-    //SI ES UN NÚMERO ENTRE 1 Y 50
-    if (numrep > 0 && numrep <= 50) {
-        var rep,i;
-        //BUCLE QUE VA DESDE 0 HASTA numrep
-        for (i = 0; i <=numrep; i++) {
-            //BUCLE DESDE 1 HASTA i
-            for (rep = 1; rep <= i; rep++) {
-                document.write(rep);
+let numero = prompt("Introduce numero de repeticiones");
+if (Number(numero) == numero) {
+    if (numero > 0 && numero <= 50) {
+        let repeticiones,i;
+        for (i = 0; i <=numero; i++) {
+            for (repeticiones = 1; repeticiones <= i; repeticiones++) {
+                document.write(repeticiones);
             }
             document.write("<br>");
         }
@@ -31,5 +26,5 @@ if (Number(numrep) == numrep) {
     }
 } 
 else {
-    alert("No has introducido un número);
+    alert("No has introducido un número")
 }
