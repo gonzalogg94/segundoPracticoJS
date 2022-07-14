@@ -8,11 +8,10 @@ let resultado = filas * columnas;
 
 document.write(`<table> <tbody>`)
 
-//este se encarga de dibujar las fijas
 for(let indiceFila = 0; indiceFila < filas; indiceFila++){
     document.write(`<tr>`)
     for(let indiceColumna=0; indiceColumna< columnas; indiceColumna++ ){
-        document.write(`<td>${resultado}</td>`); // document.write('<td>'+ resultado +'</td>')
+        document.write(`<td>${resultado}</td>`);
         resultado--;
     }
     document.write(`</tr>`)
